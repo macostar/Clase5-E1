@@ -1,0 +1,445 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	height: 100%;
+}
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height: 100%;
+}
+
+.content {
+	float: center;
+	height: auto;
+	width: 80% padding-top:   5px;
+}
+
+.lineaDivide {
+	border-bottom: solid 2px #8fa4d1;
+}
+
+.menuLink {
+	vertical-align: top;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+.footer {
+	background-image: url("/imagen/fondoTotalBamer.jpg");
+	width: 100%;
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+.principal {
+	background-image: url("/imagen/fondoTotalBamer.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+.fondoAzul {
+	color: #FFFFFF;
+	background-color: #5188c9;
+}
+
+.fondoGris {
+	color: #144596;
+	background-color: #9ccae6;
+}
+
+.tituloAzulB {
+	color: #002969;
+	font: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	font-stretch: narrower;
+}
+
+.tituloAzulN {
+	color: #57c7ec;
+	font: Arial;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.tituloGris {
+	color: #08376f;
+	font: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.tituloGrisT {
+	color: #57c7ec;
+	font: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.version {
+	font: Arial;
+	font-size: 12px;
+	color: #7289b7;
+}
+
+.subTituloAzulB {
+	color: #003ab6;
+	font-weight: bold;
+	font: Arial;
+	font-size: 14px;
+}
+
+.subTituloAzulN {
+	color: #002969;
+	font: Arial;
+	font-size: 14px;
+}
+
+.subTituloGris {
+	color: #003a8c;
+	font: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.contenidoGris {
+	color: #000000;
+	font: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.contenido {
+	font: Arial;
+	font-size: 12px;
+}
+
+.imagenLogo {
+	alignment-baseline: 5px;
+	padding-right: 50px;
+	height: 50px;
+	width: 250px;
+}
+
+.bannerBanmex {
+	background-image: url('../imagen/fondoTotalBamer.jpg');
+	height: 75px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.logoBanco {
+	width: 200px;
+	height: 50px;
+	padding-left: 70px;
+}
+
+.Boton {
+	background-color: #084372;
+	color: #FFFFFF;
+	font: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.azulMarino {
+	color: #00589f;
+	font: Arial;
+	font-size: 12px;
+}
+
+.azulCielo {
+	color: #22a0d5;
+	font: Arial;
+	font-size: 12px;
+}
+
+.letraGris {
+	color: #144596;
+	font: Arial;
+	font-size: 12px;
+}
+
+.linkBanamex {
+	color: #0950a7;
+	font-weight: bolder;
+	font: Arial;
+	font-stretch: semi-condensed;
+	font-size: 14px;
+}
+
+.usuarioB {
+	color: #002969;
+	font: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.usuarioN {
+	color: #002969;
+	font: Arial;
+	font-size: 12px;
+}
+
+.bienvenido {
+	float: right;
+	padding-right: 50px;
+	vertical-align: baseline;
+}
+
+.informaRoja {
+	font: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fbbc00;
+}
+
+.resumenPagareB {
+	color: #000000;
+	font: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.resumenPagareN {
+	color: #000000;
+	font: Arial;
+	font-size: 13px;
+}
+
+.subMenuLink {
+	color: #FFFFFF;
+	font-weight: bolder;
+	font: Arial;
+	font-size: 12px;
+}
+
+.navegacionMenu {
+	color: #000000;
+	font: Arial;
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+
+* html p#iepara {
+	padding-top: 1em;
+}
+
+/* Para IE \*/
+* html .horizontalcssmenu ul li {
+	float: left;
+	height: 1%;
+}
+
+* html .horizontalcssmenu ul li a {
+	height: 1%;
+}
+/* End */
+.reportaError {
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #D7111B;
+}
+
+.tablaUsuario {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #002969;
+}
+
+.fechaSession {
+	text-align: right;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #6CF;
+}
+
+.contenidoSubTabla {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #002969;
+}
+
+.tituloTabla {
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	color: #002969;
+}
+
+.contenidoTabla {
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #002969;
+}
+
+.Link2 {
+	color: #C6022F;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+.Mensaje {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.DatosCombo {
+	color: #000000;
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.tablaContenido {
+	width: 50%;
+	border: double 2px #003399;
+	background-color: #BDDFF9;
+}
+
+.Menu {
+	color: #003399;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.Fecha {
+	background-color: #E1E1E1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+.EncabezadoPagina {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: #0033CC;
+}
+
+.SubTitulo {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	background-color: #126AB0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.Fila1 {
+	color: #000000;
+	text-align: center;
+	background-color: #E1E1E1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.FilaDatos1 {
+	color: #000000;
+	text-align: left;
+	background-color: #E1E1E1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.Fila2 {
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #126AB0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.FilaDatos2 {
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #126AB0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*colores para menucomp YOMERO INI*/
+/*BANCOMER*/
+#menucomp {
+	
+}
+
+#menucomp li {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#menucomp ul li,#menucomp li:last-child {
+	border: none
+}
+
+a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 13px;
+	padding: 3px;
+	text-shadow: 1px 1px 1px #325179;
+	text-align: center;
+}
+
+#menucomp a:hover {
+	color: #F9B855;
+	background-color: #336699;
+	-webkit-transition: color 0.2s linear;
+}
+
+#menucomp ul a {
+	background-color: #CDDBEB;
+}
+
+#menucomp ul a:hover {
+	background-color: #CFCFCF;
+	color: #2961A9;
+	text-shadow: none;
+	-webkit-transition: color, background-color 0.2s linear;
+}
+
+ul {
+	display: block;
+	background-color: #336699;
+	margin: 0;
+	padding: 0;
+	width: 130px;
+	list-style: none;
+}
+
+#menucomp li ul {
+	display: none;
+}
+
+#menucomp ul li li {
+	padding-left: 10px;
+}
+/*colores para menucomp YOMERO FIN*/

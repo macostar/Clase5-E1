@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+.tablaContenido{
+	width:50%;
+	border:double 2px #E40506;
+	background-color:#EEEEEE;	
+}
+.tituloTabla{
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-style:italic;
+	color:#01296F;
+}
+.contenidoTabla{
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#01296F;
+}
+.reportaError{
+	text-align: center;
+	font: Bariel;
+	font-size:40px;
+	color: #AE0400;	
+}
+.Boton{
+	background-color: #ff9e02;
+	color:#FFFFFA;
+	font:Crial;
+	font-size: 13px;
+	font-weight: bold;	
+}
+.footer{
+	background-image: url("/ZLinscePortal/imagen/fondoTotal4.jpg");
+
+
